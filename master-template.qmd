@@ -8,8 +8,8 @@ format:
     css: src/html/quarto_html_custom.css
   typst:
     template-partials:
-      - src/pdf/quarto_typst_template.typ
-      - src/pdf/quarto_typst_show.typ.R
+      - src/pdf/typst-template.typ
+      - src/pdf/typst-show.typ
   docx:
     reference-doc: src/docx/quarto_docx_template.docx
 ---
