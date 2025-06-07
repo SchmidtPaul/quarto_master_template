@@ -1,0 +1,31 @@
+---
+title: "Quarto Master Template"
+author: "Paul Schmidt"
+date: today
+format:
+  html:
+    output-file: "index.html"
+    toc: true
+    toc-location: left
+    theme: default
+    css: src/html/quarto_html_custom.css
+  pdf:
+    toc: true
+    template: src/pdf/quarto_typst_template.typ
+  docx:
+    toc: true
+    reference-doc: src/docx/quarto_docx_template.docx
+output-dir: docs
+---
+
+# Introduction
+
+This is a comprehensive Quarto template demonstrating all major features across HTML, PDF, and Word output formats.
+
+## Features
+
+- Unified styling across all output formats
+- Corporate design ready
+- One-click rendering to multiple formats
+
+TODO: Add comprehensive content demonstrating all Quarto features
